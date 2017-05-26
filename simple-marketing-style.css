@@ -1,0 +1,68 @@
+html, body, header, div, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+	width: 960px;
+	height: 650px;
+}
+
+header {
+	height: 100px;
+	width: 900px;
+	background-color: red;
+	margin: 0 30px;
+}
+
+#div1 {
+	width: 435px;
+	float: left;
+	height: 400px;
+	background-color: blue;
+	margin: 15px 15px 15px 30px;
+}
+
+#div2 {
+	width: 435px;
+	height: 400px;
+	float: right;
+	background-color: orange;
+	margin: 15px 30px 15px 15px;
+}
+
+#div3 {
+	height: 100px;
+	width: 280px;
+	background-color: magenta;
+	float: left;
+	margin: 0px 15px 15px 30px;
+}
+
+#div4 {
+	height: 100px;
+	width: 280px;
+	background-color: green;
+	float: left;
+	margin: 0px 15px 15px 15px;
+}
+
+#div5 {
+	height: 100px;
+	width: 280px;
+	background-color: black;
+	float: right;
+	margin: 0px 30px 15px 15px;
+}
+
+footer {
+	width: 900px;
+	height: 100px;
+	background-color: gray;
+	clear: both;
+	margin: 15px 30px;
+}
